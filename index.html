@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site F</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
+    <!-- <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu-mobile.css"> -->
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <!-- Topo do header: redes sociais -->
+
+    <div class="header-top">
+      <div class="container">
+        <p class="siganos">Siga-nos:</p>
+
+        <!-- Rede socias-->
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Header Main - Meio do header: toggle, logo, menu e botão -->
+    <div class="header-main">
+      <div class="container">
+
+      <!-- Menu Toggle -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu"><!-- &#9776; -->
+          <span></span><span></span><span></span>
+        </button>
+
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">Pizzaria F</a>
+        </div>
+
+        <!-- Main Nav-->
+        <nav class="main-nav">
+          <ul>
+            <li><a class="link-nav" href="#home">Início</a></li>
+            <li><a class="link-nav" href="#sobre">Sobre</a></li>
+            <li><a class="link-nav" href="#">Sabores</a></li>
+            <li><a class="link-nav" href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Botão de cardapio do header-->
+        <a href="#cardapio" class="btn-cardapio"><span>Ver Cardápio</span></a>
+      </div>
+    </div>
+  
+    <!-- Parte inferior do header: elemento estiloso -->
+    <div class="header-bottom">
+      <div class="container">
+        <p class="slogan">
+          🍕 Tradição em cada fatia, sabor em cada momento.
+        </p>
+      </div>
+    </div>
+  </header>
+  
+
+      <main>
+
+      <!-- Botão de Whats app flutuante -->
+        <a
+          href="https://wa.me/5599999999999"
+          class="whatsapp-float"
+          target="_blank"
+          aria-label="Fale conosco no WhatsApp"
+        >
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+
+        <section id="home" class="hero-slider">
+          <div class="slider-wrapper">
+            
+            <!-- Slide 1 -->
+            <div class="slide active">
+              <img src="images/slide1.webp" alt="Pizza artesanal com borda recheada">
+              <div class="slide-content">
+                <h1 class="chamada-destaque">A Pizza do Jeito que Você Ama</h1>
+                <a href="#cardapio" class="btn-destaque">Ver Cardápio</a>
+              </div>
+            </div>
+        
+            <!-- Slide 2 -->
+            <div class="slide">
+              <img src="images/slide2.webp" alt="Forno à lenha tradicional">
+              <div class="slide-content">
+                <h1 class="chamada-destaque">Sabor com História</h1>
+                <a href="#reserva" class="btn-destaque">Reserve sua Mesa</a>
+              </div>
+            </div>
+        
+            <!-- Slide 3 -->
+            <div class="slide">
+              <img src="images/slide3.webp" alt="Pizza sendo servida com vinho">
+              <div class="slide-content">
+                <h1 class="chamada-destaque">Momentos Inesquecíveis</h1>
+                <a href="#contato" class="btn-destaque">Fale Conosco</a>
+              </div>
+            </div>
+        
+            <!-- Navegação -->
+            <div class="slider-nav">
+              <button class="prev">&#10094;</button>
+              <button class="next">&#10095;</button>
+            </div>
+            
+          </div>
+        </section>
+        
+      
+        <!-- SOBRE NÓS -->
+        <section id="sobre" class="sobre">
+          <div class="container">
+            <div class="text">
+              <h2>Sobre Nós</h2>
+              <p>Há mais de 10 anos, a Pizzaria E combina ingredientes frescos, receitas artesanais e amor pela pizza para criar momentos inesquecíveis. Nossa massa é fermentada naturalmente e assada no forno à lenha, como manda a tradição italiana.</p>
+            </div>
+            <div class="img">
+              <img src="./img/sobre.jpg" alt="sobre nós">
+            </div>
+          </div>
+        </section>
+      
+        <!-- CARDÁPIO -->
+        <section id="cardapio" class="cardapio">
+          <div class="container">
+            <h2>Nosso Cardápio</h2>
+        
+            <!-- Pizzas Tradicionais -->
+            <div class="categoria-cardapio">
+              <h3>Pizzas Tradicionais</h3>
+              <div class="itens-cardapio">
+                <div class="item">
+                  <h4>Margherita</h4>
+                  <p>Molho de tomate, muçarela, manjericão fresco</p>
+                </div>
+                <div class="item">
+                  <h4>Calabresa</h4>
+                  <p>Calabresa fatiada, cebola roxa, orégano</p>
+                </div>
+                <div class="item">
+                  <h4>Quatro Queijos</h4>
+                  <p>Muçarela, parmesão, gorgonzola e catupiry</p>
+                </div>
+                <div class="item">
+                  <h4>Portuguesa</h4>
+                  <p>Presunto, ovos, cebola, azeitonas e muçarela</p>
+                </div>
+                <div class="item">
+                  <h4>Frango com Catupiry</h4>
+                  <p>Frango desfiado, catupiry, milho e orégano</p>
+                </div>
+                <div class="item">
+                  <h4>Napolitana</h4>
+                  <p>Muçarela, rodelas de tomate, alho e orégano</p>
+                </div>
+                <div class="item">
+                  <h4>Palmito</h4>
+                  <p>Palmito, muçarela, tomate e azeitonas</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Pizzas Especiais -->
+            <div class="categoria-cardapio">
+              <h3>Pizzas Especiais</h3>
+              <div class="itens-cardapio">
+                <div class="item">
+                  <h4>Caprese</h4>
+                  <p>Muçarela de búfala, tomate cereja e manjericão</p>
+                </div>
+                <div class="item">
+                  <h4>Carne Seca</h4>
+                  <p>Carne seca desfiada, cebola roxa e catupiry</p>
+                </div>
+                <div class="item">
+                  <h4>Rúcula com Tomate Seco</h4>
+                  <p>Muçarela, rúcula fresca e tomate seco</p>
+                </div>
+                <div class="item">
+                  <h4>Bacon com Cheddar</h4>
+                  <p>Muçarela, bacon crocante e cheddar cremoso</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Pizzas Premium -->
+            <div class="categoria-cardapio">
+              <h3>Pizzas Premium</h3>
+              <div class="itens-cardapio">
+                <div class="item">
+                  <h4>Trufada</h4>
+                  <p>Muçarela, cogumelos e azeite trufado</p>
+                </div>
+                <div class="item">
+                  <h4>Pepperoni</h4>
+                  <p>Muçarela e fatias generosas de pepperoni</p>
+                </div>
+                <div class="item">
+                  <h4>Camarão</h4>
+                  <p>Camarões refogados, muçarela e alho</p>
+                </div>
+                <div class="item">
+                  <h4>Mexicana</h4>
+                  <p>Carne moída, pimenta jalapeño, milho e cheddar</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Pizzas Doces -->
+            <div class="categoria-cardapio">
+              <h3>Pizzas Doces</h3>
+              <div class="itens-cardapio">
+                <div class="item">
+                  <h4>Chocolate com Morango</h4>
+                  <p>Chocolate ao leite derretido e morangos frescos</p>
+                </div>
+                <div class="item">
+                  <h4>Banana com Canela</h4>
+                  <p>Banana fatiada, açúcar e canela</p>
+                </div>
+                <div class="item">
+                  <h4>Romeu e Julieta</h4>
+                  <p>Muçarela e goiabada cremosa</p>
+                </div>
+                <div class="item">
+                  <h4>Prestígio</h4>
+                  <p>Chocolate ao leite e coco ralado</p>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </section>
+        
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+          <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Estamos prontos para atender você com rapidez e sabor!</p>
+        
+            <div class="contato-grid">
+              <div class="contato-info">
+                <ul>
+                  <li><strong>📍 Endereço:</strong> Rua da Pizza, 123 – Centro, São Paulo - SP
+                    <div class="contato-mapa-mobile">
+                      <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.489601925802!2d-46.63330968447722!3d-23.588135967802794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b29c74b0cb%3A0x7dd365c2ff9be6a4!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1618234133727!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="250" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                      ></iframe>
+                    </div></li>
+                  
+                  <li><strong>📞 Telefone:</strong> (11) 98765-4321</li>
+                  <li><strong>📧 E-mail:</strong> contato@pizzariae.com.br</li>
+                  <li><strong>⏰ Horário:</strong> Todos os dias, das 18h às 23h</li>
+                  <li> <a href="https://wa.me/5511987654321" target="_blank" class=" btn-whatsapp">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" style="margin-right:8px;">
+                  Falar no WhatsApp
+                </a></li>
+                </ul>
+              </div>
+        
+              <div class="contato-mapa">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.489601925802!2d-46.63330968447722!3d-23.588135967802794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b29c74b0cb%3A0x7dd365c2ff9be6a4!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1618234133727!5m2!1spt-BR!2sbr" 
+                  width="100%" 
+                  height="250" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+      
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-logo " >
+              <a href="#home">
+              <img src="./img/logo.png" alt="logo pizzaria armagedom"><a href="#home" >Pizzaria E</a>
+              <p>Sabor autêntico, tradição e qualidade no seu prato.</p>
+            </div>
+      
+            <div class="links-e-contato">
+              <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#cardapio">Cardápio</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                </ul>
+              </div>
+              <div class="footer-contato">
+                <h4>Contato</h4>
+                <p><strong>Endereço:</strong> Rua da Pizza, 123</p>
+                <p><strong>Telefone:</strong> (11) 98765-4321</p>
+                <p><strong>Email:</strong> contato@pizzariae.com.br</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="footer-bottom">
+            <p>&copy; 2025 Pizzaria E. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+      
+      
+      <script src="scripts/menu-mobile.js"></script>
+      <script src="scripts/hero-slider.js"></script>
+</body>
+</html>
