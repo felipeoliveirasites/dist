@@ -373,10 +373,9 @@ body, p, li {
 @media screen and (max-width: 288px) {
   .menu-toggle {
     color: var(--verde);
-    z-index: 2000;
   }
   .menu-toggle span {
-    background-color: var(--madeira);
+    background-color: var(--botao-suporte);
   }
 }
 div.logo {
@@ -430,8 +429,8 @@ div.logo img:hover {
   .contato-mapa-mobile {
     display: inline-block;
     margin-top: 7px;
-    width: calc(100% + 64px);
-    margin-left: -32px;
+    width: 100%;
+    margin-left: 0px;
   }
   .contato-mapa {
     display: none;
@@ -530,7 +529,7 @@ a.btn-destaque:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .main-nav ul {
@@ -614,7 +613,7 @@ a.btn-destaque:hover {
     justify-content: start;
   }
   .header-main .container {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 15px;
     align-items: center;
   }
