@@ -1021,5 +1021,156 @@ a.btn-destaque:hover {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 }
+section.contato {
+  background-color: #fff8f0;
+}
+
+.contato h2 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contato p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.contato-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.contato-info {
+  flex: 1;
+}
+
+.contato-info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.contato-info li {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.site-footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 3rem 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: end;
+}
+
+.footer-logo {
+  display: flex;
+  flex-flow: column wrap;
+  width: fit-content;
+  align-items: end;
+}
+
+.footer-logo a {
+  font-family: "Pacifico", cursive;
+  font-size: 1.8rem;
+  color: var(--bege);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-logo p {
+  color: var(--bege);
+  text-align: right;
+}
+
+.links-e-contato {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  max-width: fit-content;
+  gap: 50px;
+}
+
+.footer-links,
+.footer-contato {
+  flex: 1;
+  max-width: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  text-align: left;
+  margin-right: auto;
+}
+
+.footer-contato {
+  align-self: bottom;
+}
+
+.footer-links h4,
+.footer-contato h4 {
+  font-family: "Lora", serif;
+  margin-bottom: 1rem;
+  color: var(--dourado);
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--verde);
+}
+
+.footer-contato p {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  color: var(--bege);
+}
+
+footer img {
+  width: 80px;
+}
+
+@media (max-width: 396px) {
+  .footer-bottom {
+    text-align: right;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
