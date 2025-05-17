@@ -24,6 +24,11 @@ p.destaque {
   margin-left: -3.5px;
 }
 
+@media (min-width: 768px) {
+  h2 {
+    margin-top: 24px;
+  }
+}
 :root {
   --cor-vermelho-vinho: #7B2C2C;
   --cor-bege-pao: #F5EBDD;
