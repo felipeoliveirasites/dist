@@ -176,7 +176,7 @@
       <h3>Pizzas Tradicionais</h3>
       <div class="itens-cardapio">
 
-        <div class="item">
+        <div class="item fade-in destaque">
           <img src="../dist/images/pizza-de-queijo.webp" alt="Pizza Margherita">
           <div class="info">
             <h4>Margherita</h4>
@@ -472,6 +472,11 @@
             item.prepend(img); // insere no início da div .item
           }
         });
+
+        document.querySelectorAll('.item').forEach(item => {
+        item.classList.add('fade-in', 'destaque');
+        });
+
       </script>
 
 </body>

@@ -1,7 +1,7 @@
 // sobre.js
 
 document.addEventListener("DOMContentLoaded", function () {
-  const elementos = document.querySelectorAll("#sobre .fade-in");
+  const elementos = document.querySelectorAll(".fade-in");
 
   const observer = new IntersectionObserver((entradas) => {
     entradas.forEach((entrada) => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }, {
-    threshold: 0.5 // 50% do elemento visível já ativa o efeito
+    threshold: 0.2 // 50% do elemento visível já ativa o efeito
   });
 
   elementos.forEach((el) => observer.observe(el));
