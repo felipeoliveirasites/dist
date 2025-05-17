@@ -177,7 +177,7 @@
       <div class="itens-cardapio">
 
         <div class="item">
-          <img src="img/pizzas/margherita.jpg" alt="Pizza Margherita">
+          <img src="../dist/images/pizza-de-queijo.webp" alt="Pizza Margherita">
           <div class="info">
             <h4>Margherita</h4>
             <p>Molho de tomate, muçarela, manjericão fresco</p>
@@ -459,5 +459,20 @@
       <script src="scripts/menu-mobile.js"></script>
       <script src="scripts/hero-slider.js"></script>
       <script src="scripts/sobre-nos.js"></script>
+      <script>
+        document.querySelectorAll('.item').forEach(item => {
+          let img = item.querySelector('img');
+        
+          if (img) {
+            img.src = "../dist/images/pizza-de-queijo.webp";
+          } else {
+            img = document.createElement('img');
+            img.src = "../dist/images/pizza-de-queijo.webp";
+            img.alt = "Pizza";
+            item.prepend(img); // insere no início da div .item
+          }
+        });
+      </script>
+
 </body>
 </html>
